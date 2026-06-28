@@ -6,7 +6,7 @@ import numpy as np
 st.title("Sales Dashboard")
 st.write("Interactive dashboard for sales data")
 
-df=pd.read_csv('dataset/SampleSuperstore.csv')
+df=pd.read_csv('SampleSuperstore.csv')
 
 with st.sidebar:
 
